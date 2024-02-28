@@ -128,6 +128,21 @@ the class after, we begun cadding our car. We intend to use four wheels, as oppo
 <img src="robotrizz.jpg" width="360px" height="240">
 <img src="computer.jpg" width="360px" height="240">
 
+<p>2//23 Eighteenth Journal entry - Arduino Car review<br>
+The Arduino car project has finished. This was the first major project of the second semester, and by far my favorite of the year. It taught me how to use the C programming language, and forced me to learn the basics of arduino programming and implementation.
+We tested the cars in the cafeteria. While the mousetrap cars where judged by their distance, all the arduino cars needed to do was go. Me and my teamates car was capable of more. Our car was able to turn and brake before hitting a wall. sadly, there was either a mistake with our code or a defect with the sensor, as it would trap itself in a loop of reacting to walls that did not exist, I.E. our arduino car had schizophrenia.
+While this infuriates me, it does not change the fact that our car worked well and passed all requirements. I am happy with the project, and I enjoyed the proccess of creating the car.     
+</p>
+<img src="Arduino1.jpg" width="360px" height="240">
+<img src="Arduino2.jpg" width="360px" height="240">
+<img src="Arduino3.jpg" width="360px" height="240">
+<img src="Arduino4.jpg" width="360px" height="240">
+<img src="Arduino5.jpg" width="360px" height="240">
+<p>The proccess to create the car was enjoyable, but that is speaking from hindsight. Wiring the car was tedius and frustrating, and I had to redesign the car multiple times as I learned more and more about the equipment I was using. This can be sectioned into four parts: the motors, the control chip, the arduino, and the sensor. Each part required me to spend days actually learning things, until I understood how they worked and could actually use them. The first prototype, the bare bones car that we put together in the first couple days, had the grounds of the motors attached to the ground strip on the breadboard. This was because I did not understand how the chip was supposed to control the wheel. I made this mistake because I did not know how the chip would control the direction of the wheels rotation. The chip took me days to understand, But once I understood what each pin did, It made a lot of sense. What confused me about the chip was how some pins were redundent. The power 1 pin, which supplied power to the chip, was irrelevent as long as the power 2 pin was powered. both sides had two ground pins, but you really only needed one. It was weird.
+The arduino was worse. I did not realize at first that the pins could be set to HIGH or LOW, so I was just using numerical values for the pins that could use them. This caused some pns to behave like they were always off, due to low values. What took me some effort was learning how to code in C, the language the arduino used. I encounted a lot of bugs, especially when trying to use the sensor. The sensor itself used code that I copied from the internet, but I had to expand on it. The original code would just print out the distance, so i had to figure out how to take that and check if the car was near a wall. This took an embarrassing amount of time. Also, I was attempting to use the 0 and 1 pins, which created a new error that would not let me compile. It took a week to solve that. Overall, though, my code worked, and the car could brake before hitting a wall. It could certainly get better though. </p>
+<video width="900" height="600" controls="" loop="">
+<source src= "ArduinoVid1.mp4" type="video/mp4">
+</video>
 </center>
 </body>
 </html>
